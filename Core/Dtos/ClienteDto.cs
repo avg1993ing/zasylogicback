@@ -14,6 +14,7 @@ namespace Core.Dtos
         public string apellido { get; set; }
         public string telefono { get; set; }
         public bool sexo { get; set; }
+        public DateTime fecha { get; set; }
         public MotivoDto MotivoDto { get; set; }    
     }
 }

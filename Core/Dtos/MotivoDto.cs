@@ -8,6 +8,7 @@ namespace Core.Dtos
 {
     public class MotivoDto
     {
+        public int id { get; set; }
         public string nombre { get; set; }
     }
 }

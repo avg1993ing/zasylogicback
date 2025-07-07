@@ -41,5 +41,18 @@ namespace Core.Services
                 throw;
             }
         }
+
+        public async Task<List<Motivo>> GetAllMotivo()
+        {
+            try
+            {
+              return await _adminInterfaces.motivoRepository.GetAll();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }

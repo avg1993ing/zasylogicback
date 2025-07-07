@@ -17,10 +17,16 @@ namespace WebApi.Controllers
             _mapper = mapper;   
         }
 
-        [HttpGet]
+        [HttpGet("getall")]
         public async Task<IActionResult> GetAll(DateTime? fecha)
         {
             return Ok(_mapper.Map<List<ClienteDto>>(await _clienteService.GetAll(fecha)));
+        }
+
+        [HttpGet("motivo")]
+        public async Task<IActionResult> GetAllMotivo()
+        {
+            return Ok(_mapper.Map<List<MotivoDto>>(await _clienteService.GetAllMotivo()));
         }
 
         [HttpPost]

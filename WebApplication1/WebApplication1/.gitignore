@@ -1,0 +1,70 @@
+## Build results
+bin/
+obj/
+[Ll]og/
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Visual Studio
+.vs/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET Core
+appsettings.Development.json
+appsettings.*.json
+secrets.json
+
+## Entity Framework
+Migrations/
+
+## Publish output
+publish/
+out/
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Test Results
+TestResults/
+*.trx
+
+## Others
+*.db
+*.sqlite
+*.bak
+*.cache
+*.pidb
+*.svclog
+*.pdb
+*.pidb
+*.mdb
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Mac and Linux file system files
+.DS_Store
+*.swp
+*~

@@ -1,0 +1,96 @@
+## Build results
+bin/
+obj/
+[Ll]og/
+Generated_Code/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Mono
+mono_crash.*
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Rider
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+.history/
+
+## DotCover
+.idea/.dotCover
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Uncomment if using a global NuGet cache
+# ~/.nuget/packages/
+
+## Entity Framework
+Migrations/
+
+## Azure Pipelines
+.azdo/
+
+## Others
+*.vs/
+.vs/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local secrets
+secrets.json
+
+# StyleCop
+StyleCopReport.xml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Test Results
+TestResults/
+*.TestResult.xml
+*.trx
+
+# Resx
+*.resources
+*.resx
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+NCrunchTemp_*/
+
+# Coverlet
+coverage*.json
+coverage*.xml
+coverage*.info
